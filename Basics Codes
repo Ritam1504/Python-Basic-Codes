@@ -1,0 +1,99 @@
+"Hello CUSB"
+print("Hello CUSB\n Welcome")
+print(2+4)
+
+
+harry = 1234
+ 
+king= 123
+ #@ king not possible
+  
+#   arithimatic operator
+
+a= 4
+b= 5
+c= a+b
+print(c)
+c+=1
+print(c)
+
+# comparison operators
+
+d=8<6
+print(d)
+e=8>6
+print(e)
+
+f=5>=5
+print(f)
+# logical operator
+g =True or False
+print(g)
+
+
+# not operator
+
+print(not(False))
+print(not(True))
+
+
+z=9
+x=type(z)  #class= <int>
+print(x)
+
+v=9.8
+b=type(v)
+print(b) # class = float
+
+n= "king"  #use "" for string
+m=type(n)
+print(m)
+
+# For input programming
+
+a=input("Enter number 1:")
+b=input("Enter number 2:")
+
+print("number a is :",a)
+print("number b is :",b)
+print("sum a and b is :",a+b)
+
+c= int (input("Enter number 1:"))
+d= int (input("Enter number 2:"))
+
+print("number a is :",c)
+print("number b is :",d)
+print("sum a and b is :",c+d)
+print("sum a and b is :",c>d)
+
+
+g=int(input("Enter number:"))
+print("The square of the number is",g**2)
+
+m=int(input("X:"))
+n=int(input("Y:"))
+print(m/n)
+
+
+
+def display_type(value):                             #this presents the type of value of given data
+    print(f"The type of {value} is: {type(value)}")    
+    
+y=7
+z=12.7
+R="Hello Ritam"
+b = True
+l = [1, 2, 3]
+tuple = (4, 5, 6)
+dictonary = {"name": "Alice", "age": 30}
+
+display_type(y)
+display_type(z)
+display_type(R)
+display_type(b)
+display_type(l)
+display_type(tuple)
+display_type(dictonary)
+
+table=[x*2 for x in range(11)]
+print(table)
